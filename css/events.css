@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* background-image: url(/img/gif3.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: cover;
+  background-attachment: fixed; */
+  /* background-color: ; */
+  background-color: #ead1dc;
+}
+
+/* img {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+} */
+
+header {
+  padding: 10px;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  transition: background-color 0.5s;
+}
+
+header .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+header .title img {
+  height: 40px; /* height: 50px; */
+  object-fit: contain;
+}
+
+header .title h1 {
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #ead1dc;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover:not(nav a.active) {
+  color: rgb(204, 204, 204);
+}
+
+a:active {
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+.hero-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://raw.githubusercontent.com/sharpe-byte/nlrhs-anime-club-website/main/img/hero-image2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-banner h1 {
+  font-size: 42.3px;
+}
+
+.separator {
+  /* background-color: white; */
+  background-color: #ead1dc;
+  height: 10px;
+  padding: 10px 48px;
+}
+
+.separator hr {
+  border-color: black;
+  margin: 0 38.5px;
+}
+
+footer {
+  padding: 10px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+footer .content p {
+  font-size: 20px;
+}
+
+footer .options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+footer .options button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.4s;
+}
+
+footer .options button:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+footer .copyright p {
+  font-size: 12px;
+  text-transform: none;
+}
