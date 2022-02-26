@@ -99,7 +99,7 @@ h3 {
 
 .hero-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/hero-image1.jpg);
+    url("https://raw.githubusercontent.com/sharpe-byte/nlrhs-anime-club-website/main/img/hero-image1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -133,7 +133,7 @@ h3 {
   padding: 14px 8px;
   height: 362px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/gif3.gif);
+    url("https://raw.githubusercontent.com/sharpe-byte/nlrhs-anime-club-website/main/img/gif3.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -160,7 +160,7 @@ h3 {
 }
 
 .club-groups-wrapper {
-  background-image: url(/img/gif2.gif);
+  background-image: url("https://raw.githubusercontent.com/sharpe-byte/nlrhs-anime-club-website/main/img/gif2.gif");
   background-size: cover;
   background-position: center center;
   padding: 24px 0;
