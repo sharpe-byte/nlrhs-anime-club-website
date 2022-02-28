@@ -127,13 +127,23 @@ h3 {
   margin: 0 38.5px;
 }
 
+.club-members {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://raw.githubusercontent.com/sharpe-byte/nlrhs-anime-club-website/main/img/img4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 1018.12px;
+  overflow: hidden;
+}
+
 footer {
   padding: 10px;
   background-color: black;
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 0; */
   display: flex;
   align-items: center;
   justify-content: space-between;
