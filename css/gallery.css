@@ -127,13 +127,53 @@ h3 {
   margin: 0 38.5px;
 }
 
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: white;
+  padding: 15px 0;
+}
+
+.row {
+  /* flex-basis: 20%;
+  width: 100%;
+  padding: 10px;
+  margin: 8px;
+
+  box-shadow: 1px 1px 15px 1px green; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+  /* background-color: aliceblue; */
+  width: 100%;
+}
+
+.row img {
+  width: 280px;
+  object-fit: contain;
+  border-radius: 6px;
+  border: 3px solid white;
+  transition: border 0.3s, box-shadow 0.4s;
+}
+
+.row img:hover {
+  border: 3px solid black;
+  /* transform: scale(1.1); */
+  box-shadow: 10px 10px 3px rgb(196, 196, 196);
+}
+
 footer {
   padding: 10px;
   background-color: black;
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 0; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -178,4 +218,10 @@ footer .options button:hover {
 footer .copyright p {
   font-size: 12px;
   text-transform: none;
+}
+
+@media only screen and (max-width: 300px) {
+  .row {
+    flex-basis: 100%;
+  }
 }
