@@ -1,0 +1,47 @@
+.hero-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/img/hero-images/hero-image3.webp");
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.container {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.row img {
+  width: 25%;
+  object-fit: contain;
+  border-radius: 6px;
+  border: 3px solid white;
+  transition: border 0.3s;
+}
+
+.row img:hover {
+  border: 3px solid black;
+}
+
+@media only screen and (max-width: 300px) {
+  .row {
+    flex-basis: 100%;
+  }
+}

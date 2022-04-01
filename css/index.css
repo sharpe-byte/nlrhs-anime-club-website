@@ -1,0 +1,64 @@
+.hero-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/img/hero-images/hero-image1.webp");
+  background-position: center top;
+  height: 430px;
+}
+
+.information {
+  color: white;
+  text-transform: none;
+  padding: 14px 8px;
+  height: 362px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/img/gif/gif3.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information .content {
+  width: 562.41px;
+  line-height: 1.5;
+}
+
+.information .content h2 {
+  text-align: center;
+  margin-bottom: 28px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.information .content p {
+  font-size: 19px;
+  text-align: center;
+}
+
+.club-groups-wrapper {
+  background-image: url("/img/gif/gif2.gif");
+  background-size: cover;
+  background-position: center center;
+  padding: 24px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.club-groups-wrapper iframe {
+  border: 2px solid black;
+  /* border-radius: 10px; */
+  transition: 0.3s;
+}
+
+/* Responsive Google Slides, YouTube , Vimeo, Twitch */
+/* iframe[src*="docs.google.com"],
+iframe[src*="youtube.com"],
+iframe[src*="player.vimeo.com"],
+iframe[src*="player.twitch.tv"] {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+} */
