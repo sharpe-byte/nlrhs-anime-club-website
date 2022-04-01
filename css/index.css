@@ -1,6 +1,6 @@
 .hero-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/img/hero-images/hero-image1.webp");
+    url("https://raw.githubusercontent.com/sharpe-byte/nlrhs-anime-club-website/v2/img/hero-images/hero-image1.webp");
   background-position: center top;
   height: 430px;
 }
@@ -11,7 +11,7 @@
   padding: 14px 8px;
   height: 362px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/img/gif/gif3.gif");
+    url("https://raw.githubusercontent.com/sharpe-byte/nlrhs-anime-club-website/v2/img/gif/gif3.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -38,7 +38,7 @@
 }
 
 .club-groups-wrapper {
-  background-image: url("/img/gif/gif2.gif");
+  background-image: url("https://raw.githubusercontent.com/sharpe-byte/nlrhs-anime-club-website/v2/img/gif/gif2.gif");
   background-size: cover;
   background-position: center center;
   padding: 24px 0;
