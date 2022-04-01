@@ -45,6 +45,7 @@ header .title {
 }
 
 header .title img {
+  width: auto;
   height: 40px;
   object-fit: contain;
 }
