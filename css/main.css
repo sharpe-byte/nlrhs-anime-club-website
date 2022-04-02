@@ -171,3 +171,29 @@ footer .copyright p {
   font-size: 1.2rem;
   text-transform: none;
 }
+
+@media only screen and (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  header .title {
+    align-self: flex-start;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  footer .content p {
+    font-size: 1.5rem;
+  }
+}
