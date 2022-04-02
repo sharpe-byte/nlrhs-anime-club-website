@@ -7,11 +7,11 @@
   top: 0;
   bottom: 0;
   z-index: 1;
-  width: 130px;
-  height: 130px;
-  border: 16px solid #c2a5b2;
+  width: 20.8vh;
+  height: 20.8vh;
+  border: 1.6rem solid #c2a5b2;
   border-radius: 50%;
-  border-top: 16px solid black;
+  border-top: 1.6rem solid black;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
@@ -38,7 +38,7 @@
 .fade-in {
   position: relative;
   -webkit-animation-name: fadeIn;
-  /* -webkit-animation-duration: 2s; */
+  -webkit-animation-duration: 2.5s;
   animation-name: fadeIn;
   animation-duration: 2.5s;
 }

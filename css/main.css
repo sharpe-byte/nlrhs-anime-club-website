@@ -10,6 +10,10 @@
   --main-color: #ead1dc;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   color: white;
   font-family: "Lato", sans-serif;
@@ -24,7 +28,7 @@ body {
 }
 
 header {
-  padding: 10px;
+  padding: 1em;
   background-color: transparent;
   position: fixed;
   top: 0;
@@ -42,24 +46,24 @@ header .title {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 1.5rem;
 }
 
 header .title img {
   width: auto;
-  height: 40px;
+  height: 6.4vh;
   object-fit: contain;
 }
 
 header .title h1 {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+  gap: 2.5rem;
 }
 
 nav a.active {
@@ -71,6 +75,7 @@ a:link {
   text-decoration: none;
   color: white;
   font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
 }
 
 a:visited {
@@ -96,7 +101,7 @@ h3 {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  height: 340px;
+  height: 54.4vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,22 +109,22 @@ h3 {
 }
 
 .hero-banner h1 {
-  font-size: 42.3px;
+  font-size: 4.23rem;
 }
 
 .separator {
   background-color: var(--main-color);
-  height: 10px;
-  padding: 10px 48px;
+  height: 1.6vh;
+  padding: 1em 4.8em;
 }
 
 .separator hr {
   border-color: black;
-  margin: 0 38.5px;
+  margin: 0 3.85rem;
 }
 
 footer {
-  padding: 10px;
+  padding: 1em;
   background-color: black;
   display: flex;
   align-items: center;
@@ -130,28 +135,28 @@ footer .content {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 25px;
+  gap: 2.5rem;
 }
 
 footer .content p {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 footer .options {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 0.5rem;
 }
 
 footer .options button {
-  padding: 5px 10px;
-  border-radius: 5px;
+  padding: 0.5em 1em;
+  border-radius: 0.5rem;
   outline: none;
   background-color: white;
   color: black;
-  border: 2px solid black;
-  font-size: 16px;
+  border: 0.2rem solid black;
+  font-size: 1.6rem;
   cursor: pointer;
   transition: background-color 0.3s, color 0.4s;
 }
@@ -159,10 +164,10 @@ footer .options button {
 footer .options button:hover {
   background-color: black;
   color: white;
-  border: 2px solid white;
+  border: 0.2rem solid white;
 }
 
 footer .copyright p {
-  font-size: 12px;
+  font-size: 1.2rem;
   text-transform: none;
 }

@@ -22,11 +22,19 @@ document.ondragstart = () => {
 
 // Set copyright
 window.onload = () => {
+  init();
+};
+
+function init() {
+  setCopyright();
+}
+
+function setCopyright() {
   const year = new Date().getFullYear();
   document.querySelector(
     "#page-content > footer > div.copyright > p"
   ).textContent = `© Copyright ${year}, NLRHS Anime Club. All Rights Reserved.`;
-};
+}
 
 // Header background color setup
 let lastKnownScrollPosition = 0;

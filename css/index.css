@@ -2,14 +2,14 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://raw.githubusercontent.com/sharpe-byte/nlrhs-anime-club-website/v2/img/hero-images/hero-image1.webp");
   background-position: center top;
-  height: 430px;
+  height: 68.8vh;
 }
 
 .information {
   color: white;
   text-transform: none;
-  padding: 14px 8px;
-  height: 362px;
+  padding: 1.4em 0.8em;
+  height: 57.92vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://raw.githubusercontent.com/sharpe-byte/nlrhs-anime-club-website/v2/img/gif/gif3.gif");
   background-repeat: no-repeat;
@@ -21,44 +21,34 @@
 }
 
 .information .content {
-  width: 562.41px;
+  width: 89.9856vh;
   line-height: 1.5;
 }
 
 .information .content h2 {
   text-align: center;
-  margin-bottom: 28px;
-  font-size: 24px;
+  margin-bottom: 2.8rem;
+  font-size: 2.4rem;
   font-weight: bold;
 }
 
 .information .content p {
-  font-size: 19px;
+  font-size: 1.9rem;
   text-align: center;
+  /* max-width: 45ch; */
 }
 
 .club-groups-wrapper {
   background-image: url("https://raw.githubusercontent.com/sharpe-byte/nlrhs-anime-club-website/v2/img/gif/gif2.gif");
   background-size: cover;
   background-position: center center;
-  padding: 24px 0;
+  padding: 2.4em 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .club-groups-wrapper iframe {
-  border: 2px solid black;
-  /* border-radius: 10px; */
+  border: 0.2rem solid black;
   transition: 0.3s;
 }
-
-/* Responsive Google Slides, YouTube , Vimeo, Twitch */
-/* iframe[src*="docs.google.com"],
-iframe[src*="youtube.com"],
-iframe[src*="player.vimeo.com"],
-iframe[src*="player.twitch.tv"] {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
-} */
