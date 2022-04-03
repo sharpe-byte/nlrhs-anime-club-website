@@ -17,41 +17,46 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <div id="preloader"></div>
+    <div class="preloader"></div>
 
-    <div id="page-content" class="fade-in">
+    <section class="page-content page-content--hidden page-content--fade-in">
       <div class="hero-banner">
-        <h1>Anime Club</h1>
+        <h1 class="hero-banner__title">Anime Club</h1>
       </div>
 
-      <header>
-        <div class="title">
+      <header class="header">
+        <div class="header__content">
           <img
             src="img/nav-logo.png"
             width="1320"
             height="1200"
             alt="Navigation logo"
+            class="header__content__nav-logo"
           />
-          <a href="index.html">
-            <h1>NLRHS Anime Club</h1>
+          <a href="index.html" class="header__content__link">
+            <h1 class="header__content__link__title">NLRHS Anime Club</h1>
           </a>
         </div>
-        <nav>
-          <a href="index.html" class="active">Home</a>
-          <a href="events.html">Events</a>
-          <a href="gallery.html">Gallery</a>
-          <a href="about-us.html">About Us</a>
+        <nav class="header__navbar">
+          <a
+            href="index.html"
+            class="header__navbar__link header__navbar__link--active"
+            >Home</a
+          >
+          <a href="events.html" class="header__navbar__link">Events</a>
+          <a href="gallery.html" class="header__navbar__link">Gallery</a>
+          <a href="about-us.html" class="header__navbar__link">About Us</a>
         </nav>
       </header>
 
       <div class="separator">
-        <hr />
+        <hr class="separator__hr" />
       </div>
 
       <section class="information">
-        <div class="content">
-          <h2>Information</h2>
-          <p>
+        <div class="information__content">
+          <h2 class="information__content__title">Information</h2>
+          <p class="information__content__desc">
             The NLRHS Anime Club is a specialized literature club devoted to the
             friendly exchange of knowledge about Japan, Anime, Manga, Comics,
             Video-games and the Internet, as well as the culture surrounding it.
@@ -64,7 +69,7 @@
       </section>
 
       <div class="separator">
-        <hr />
+        <hr class="separator__hr" />
       </div>
 
       <section class="club-groups-wrapper">
@@ -76,23 +81,24 @@
           allowfullscreen="true"
           mozallowfullscreen="true"
           webkitallowfullscreen="true"
+          class="club-groups-wrapper__club-groups"
         ></iframe>
       </section>
 
-      <footer>
-        <div class="content">
-          <p>Get Involved:</p>
-          <div class="options">
-            <button>Join</button>
-            <button>Instagram</button>
-            <button>FAQ</button>
+      <footer class="footer">
+        <div class="footer__content">
+          <p class="footer__content__text">Get Involved:</p>
+          <div class="footer__content__options">
+            <button class="footer__content__options__btn">Join</button>
+            <button class="footer__content__options__btn">Instagram</button>
+            <button class="footer__content__options__btn">FAQ</button>
           </div>
         </div>
-        <div class="copyright">
-          <p></p>
+        <div class="footer__copyright">
+          <p class="footer__copyright__desc"></p>
         </div>
       </footer>
-    </div>
+    </section>
 
     <script src="js/script.js"></script>
   </body>

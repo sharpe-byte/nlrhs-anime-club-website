@@ -27,7 +27,7 @@ body {
   background-color: var(--main-color);
 }
 
-header {
+.header {
   padding: 1em;
   background-color: transparent;
   position: fixed;
@@ -42,31 +42,31 @@ header {
   transition: background-color 0.5s;
 }
 
-header .title {
+.header__content {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
 }
 
-header .title img {
+.header__content__nav-logo {
   width: auto;
   height: 6.4vh;
   object-fit: contain;
 }
 
-header .title h1 {
+.header__content__link__title {
   font-size: 2rem;
 }
 
-nav {
+.header__navbar {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
 }
 
-nav a.active {
+.header__navbar__link.header__navbar__link--active {
   font-weight: bold;
   color: var(--main-color);
 }
@@ -82,7 +82,7 @@ a:visited {
   color: white;
 }
 
-a:hover:not(nav a.active) {
+a:hover:not(.header__navbar__link--active) {
   color: rgb(204, 204, 204);
 }
 
@@ -97,10 +97,10 @@ h3 {
 }
 
 .hero-banner {
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 54.4vh;
   display: flex;
   justify-content: center;
@@ -108,7 +108,7 @@ h3 {
   overflow: hidden;
 }
 
-.hero-banner h1 {
+.hero-banner__title {
   font-size: 4.23rem;
 }
 
@@ -118,12 +118,12 @@ h3 {
   padding: 1em 4.8em;
 }
 
-.separator hr {
+.separator__hr {
   border-color: black;
   margin: 0 3.85rem;
 }
 
-footer {
+.footer {
   padding: 1em;
   background-color: black;
   display: flex;
@@ -131,25 +131,25 @@ footer {
   justify-content: space-between;
 }
 
-footer .content {
+.footer__content {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 2.5rem;
 }
 
-footer .content p {
+.footer__content__text {
   font-size: 2rem;
 }
 
-footer .options {
+.footer__content__options {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
 }
 
-footer .options button {
+.footer__content__options__btn {
   padding: 0.5em 1em;
   border-radius: 0.5rem;
   outline: none;
@@ -161,19 +161,19 @@ footer .options button {
   transition: background-color 0.3s, color 0.4s;
 }
 
-footer .options button:hover {
+.footer__content__options__btn:hover {
   background-color: black;
   color: white;
   border: 0.2rem solid white;
 }
 
-footer .copyright p {
+.footer__copyright__desc {
   font-size: 1.2rem;
   text-transform: none;
 }
 
 @media only screen and (max-width: 500px) {
-  header {
+  .header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -181,11 +181,11 @@ footer .copyright p {
     gap: 1.5rem;
   }
 
-  header .title {
+  .header__content {
     align-self: flex-start;
   }
 
-  footer {
+  .footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -193,7 +193,7 @@ footer .copyright p {
     gap: 1.5rem;
   }
 
-  footer .content p {
+  .footer__copyright__desc {
     font-size: 1.5rem;
   }
 }

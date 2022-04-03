@@ -10,7 +10,7 @@
   width: 100%;
 }
 
-.container {
+.gallery__container {
   width: 95%;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@
   margin-bottom: 2rem;
 }
 
-.row {
+.gallery__container__row {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -28,7 +28,7 @@
   flex-wrap: wrap;
 }
 
-.row img {
+.gallery__container__row__image {
   width: 25%;
   height: auto;
   object-fit: contain;
@@ -37,12 +37,12 @@
   transition: border 0.3s;
 }
 
-.row img:hover {
+.gallery__container__row__image:hover {
   border: 0.3rem solid black;
 }
 
 @media only screen and (max-width: 500px) {
-  .row img {
+  .gallery__container__row__image {
     flex-basis: 100%;
   }
 }

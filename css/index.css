@@ -20,19 +20,19 @@
   justify-content: center;
 }
 
-.information .content {
+.information__content {
   width: 89.9856vh;
   line-height: 1.5;
 }
 
-.information .content h2 {
+.information__content__title {
   text-align: center;
   margin-bottom: 2.8rem;
   font-size: 2.4rem;
   font-weight: bold;
 }
 
-.information .content p {
+.information__content__desc {
   font-size: 1.9rem;
   text-align: center;
   /* max-width: 45ch; */
@@ -48,7 +48,7 @@
   align-items: center;
 }
 
-.club-groups-wrapper iframe {
+.club-groups-wrapper__club-groups {
   border: 0.2rem solid black;
   transition: 0.3s;
 }
